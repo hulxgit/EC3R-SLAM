@@ -44,13 +44,11 @@
 
 If you find our code or paper useful, please cite
 ```bibtex
-@article{Hu2025EC3R,
-  title        = {EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction},
-  author       = {Hu, Lingxiang and Ait Oufroukh, Naima and Bonardi, Fabien and Ghandour, Raymond},
-  year         = {2025},
-  eprint       = {arXiv:2510.02080v1},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.CV}
+@article{hu2025ec3r,
+  title={EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction},
+  author={Hu, Lingxiang and Oufroukh, Naima Ait and Bonardi, Fabien and Ghandour, Raymond},
+  journal={arXiv preprint arXiv:2510.02080},
+  year={2025}
 }
 ```
 ## Contact
