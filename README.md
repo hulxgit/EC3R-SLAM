@@ -14,11 +14,6 @@
       <strong><h4 align="center"><a href="https://arxiv.org/html/2510.02080v1" target="_blank">Paper</a> | <a href="https://h0xg.github.io/ec3r/" target="_blank">Project Website</a></h4></strong>
   </strong></p>
 
-## 📝 TODO
-
-- [x] 📄 Upload paper  
-- [ ] 💻 Upload our code (Fast3R version)  
-- [ ] 💻 Upload our code (VGGT version)
 
 
 ## Tracking
@@ -31,9 +26,19 @@
     <img src="./media/mapping.gif" alt="rerun_eg" width="100%">
 </p>
 
+## Running
 
+To run the system, first install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Then launch the pipeline with:
 
-
+```bash
+python3 main.py \
+    --sourcepath <path_to_dataset> \
+    --config <path_to_config>
+```
 ## Citation
 
 If you find our code or paper useful, please cite
