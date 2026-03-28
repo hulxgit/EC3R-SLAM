@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - data_scaling/default
+
+task_name: data_scaling_1.0
+
+data:
+  data_scaling: 1.0
+
+ckpt_path: /path/to/checkpoints/last.ckpt

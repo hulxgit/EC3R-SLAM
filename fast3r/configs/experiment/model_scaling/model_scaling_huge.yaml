@@ -1,0 +1,20 @@
+# @package _global_
+
+defaults:
+  - model_scaling/default
+
+task_name: model_scaling_huge
+
+model:
+  net:
+    decoder_args:
+      random_image_idx_embedding: true
+      enc_embed_dim: ${model.net.encoder_args.embed_dim}
+      embed_dim: 1280
+      num_heads: 16
+      depth: 32
+      mlp_ratio: 4.0
+      qkv_bias: true
+      drop: 0.0
+      attn_drop: 0.0
+      attn_implementation: flash_attention

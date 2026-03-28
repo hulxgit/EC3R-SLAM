@@ -1,0 +1,32 @@
+use_calib: False
+single_thread: False #false!!!!!! 
+dataset:
+  subsample: 1
+  img_downsample: 1
+  center_principle_point: True
+
+  
+inlier_threshold:
+  RANSAC: USAC_MAGSAC #RANSAC USAC_MAGSAC
+  base: 0.15
+  mid: 0.25
+  high: 0.35
+tracking:
+  init_frame_num: 2
+  init_kf_dis: 8
+  n_map: 4
+  matchtopk: 4096
+mapping:
+  overlap: 1
+looping:
+  search_begin: 3
+  search_end: 3
+  search_gap: 5
+  begin_idx: 4
+
+  begin_search: 30
+  sim_thre: 0.93
+  loop_score: 40
+  search_offset: 35
+
+  #room的用base 这个office

@@ -5,12 +5,6 @@
   EC3R-SLAM: Efficient and Consistent Monocular Dense SLAM with Feed-Forward 3D Reconstruction
 </h1>
 
-
-  <p align="center">
-   <strong>Lingxiang Hu<sup>1</sup></strong></a>
-    ·
-    <strong>Naima Ait Oufroukh<sup>1</sup></strong></a>
-    ·
     <strong> Fabien Bonard<sup>1</sup></strong></a>
     ·
 <strong> Raymond Ghandour<sup>2</sup></strong></a>
